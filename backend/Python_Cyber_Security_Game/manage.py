@@ -1,4 +1,9 @@
 #!/usr/bin/env python
+
+#========================================
+# Manages the starting of the server + making the apps for the server
+#========================================
+
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
