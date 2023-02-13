@@ -7,8 +7,8 @@ LED_On = false;
 const app = express();
 
 // Tells the server to send the website to the port 8080
-app.listen(8080);
-console.log("Listen at: [ip address]:8080");
+app.listen(3000);
+console.log("Listen at: [ip address]:3000");
 
 // Handles the LED process, its just a quick if statement that uses exec to run terminal lines
 app.post("/LED_Change", (req, res) => {
@@ -26,6 +26,11 @@ app.post("/LED_Change", (req, res) => {
 // Does the routing for the server, makes sure that you always either go to the index or to a 404 page, and sends a status code whilst its at it
 app.get('/', (req, res) => {
     res.sendFile('./public/index.html', { root: __dirname });
+    res.statusCode = 200;
+})
+
+app.get('/winner', (req, res) => {
+    res.sendFile('./public/Winner_Page.html', { root: __dirname });
     res.statusCode = 200;
 })
 
