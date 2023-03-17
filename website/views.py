@@ -1,4 +1,5 @@
 from django.shortcuts import render
+#from RPi.GPIO import GPIO
 
 # Create your views here.
 def home(request):
@@ -10,12 +11,13 @@ def information(request):
 def quiz(request):
     return render(request, "quiz/quiz.html")
 
-def wrong(request):
-    # Place code for the GPIO headers here
-    print("wrong")
-    return render(request, "wrong/wrong.html")
-
-def right(request):
-    # Place code for the GPIO headers here
-    print("right")
-    return render(request, "right/right.html")
+def Correct_Answer():
+    print("Right")
+    f = open("Score.txt", 'r')
+    Score = f.read()
+    Score = int(Score)
+    Score += 1
+    Score = str(Score)
+    f = open("Score.txt", "w")
+    f.write(Score)
+    # Turn an LED on
