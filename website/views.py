@@ -2,7 +2,9 @@ from django.shortcuts import render
 import requests
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
-#from RPi.GPIO import GPIO
+import RPi.GPIO as GPIO
+
+
 
 # Create your views here.
 
@@ -30,5 +32,22 @@ def question5(request):
 # Tells it to ignore CSRF verification. Bad practice but its not going to be used in anything serious.
 @csrf_exempt
 def correct_answer(request):
-    # Turn an LED on
+    Which_LED = 0
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setup(14, GPIO.OUT)
+    GPIO.setup(15, GPIO.OUT)
+    GPIO.setup(16, GPIO.OUT)
+    GPIO.setup(23, GPIO.OUT)
+    if Which_LED == 0:
+        GPIO.output(14,GPIO.HIGH)
+        Which_LED += 1
+    elif Which_LED == 1:
+        GPIO.output(15,GPIO.HIGH)
+        Which_LED += 1
+    elif Which_LED == 2:
+        GPIO.output(18,GPIO.HIGH)
+        Which_LED += 1
+    elif Which_LED == 3:
+        GPIO.output(23,GPIO.HIGH)
+        Which_LED += 1
     return HttpResponse("200")
