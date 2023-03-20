@@ -1,31 +1,35 @@
-// Handling Score on client side
+// Creates the score that is stored locally.
+function Init_Score() {
+    localStorage.setItem("Score", '0');
+}
 
-// let Cookie = document.cookie;
+// 
+function Add_Score() {
+    let Score = localStorage.getItem("Score");
+    /* Does a null test:
+    a. Because its good practice
+    b. Stops VSCode from throwing annoying erros
+    */
+    if (Score == null){let Score = 0}
+    else {
+        // Need to have the score be recorded as a number.
+        let Num_Score = parseInt(Score);
+        Num_Score++;
+        Score = Num_Score.toString();
+        localStorage.setItem("Score", Score);
+    }   
+}
 
-// function Init_Score() {
-    // sessionStorage.setItem('Score', 0)
-// }
 
-// function Add_Score() {
-//     // Score += 1;
-//     // console.log(Score);
-// }
 
-// Handling Score server side
-
-// function Add_Score() {
-//     var xmlHttp = new XMLHttpRequest();
-//     xmlHttp.open( "POST", "http://localhost:8000/correct_answer/", false ); // false for synchronous request
-//     xmlHttp.send( null );
-//     return xmlHttp.responseText;
-// }
-
-function Add_Score(){
+// Turns on an LED
+function Turn_On_LED(){
+    // Sends post request to a link, tell RPi to turn on LED
     fetch("http://localhost:8000/correct_answer/", {
         method: 'POST',
         body: JSON.stringify({
             userId: 1,
-            title: "Fix my bugs",
+            title: "Turn on LED",
             completed: false
           }),
           headers: {
