@@ -18,13 +18,8 @@ function Add_Score() {
         Score = Num_Score.toString();
         localStorage.setItem("Score", Score);
     }   
-}
 
-
-
-// Turns on an LED
-function Turn_On_LED(){
-    // Sends post request to a link, tell RPi to turn on LED
+    // Sends an HTTP POST request to the back end to tell it to turn on the LED
     fetch("http://localhost:8000/correct_answer/", {
         method: 'POST',
         body: JSON.stringify({
@@ -36,4 +31,18 @@ function Turn_On_LED(){
             "Content-type": "application/json; charset=UTF-8"
           }
         })
+}
+
+function Incorrect() {
+  fetch("http://localhost:8000/incorrect_answer/", {
+    method: 'POST',
+    body: JSON.stringify({
+        userId: 1,
+        title: "Incorrect",
+        completed: false
+      }),
+      headers: {
+        "Content-type": "application/json; charset=UTF-8"
+      }
+    })
 }

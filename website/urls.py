@@ -12,4 +12,6 @@ urlpatterns = [
     path("question4/", views.question4, name="question4"),
     path("question5/", views.question5, name="question5"),
     path("correct_answer/", views.correct_answer, name="correct_answer"),
+    path("incorrect_answer/", views.incorrect_answer, name="incorrect_answer"),
+    path("reset_led/", views.reset_LED, name="reset_led"),
 ]
