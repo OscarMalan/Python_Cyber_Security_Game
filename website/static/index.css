@@ -1,0 +1,25 @@
+/* Sample code to test the CSS */
+body {
+    background-color: #b5b5b5;
+}
+
+h1 {
+    color: #333333;
+    text-align: center;
+}
+
+h4 {
+    color: #191919;
+}
+
+p {
+    color: #191919;
+}
+
+/* button {
+    background-color: #594847;
+}
+
+button :hover {
+    background-color: #261f1f;
+} */
