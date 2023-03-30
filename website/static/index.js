@@ -342,6 +342,19 @@ function handleEndGame() {
     document.getElementById('right-answers').innerHTML = playerScore
     document.getElementById('score-modal').style.display = "flex"
 
+    // Tell server to reset the LED count
+    fetch("http://localhost:8000/reset_led/", {
+        method: 'POST',
+        body: JSON.stringify({
+            userId: 1,
+            title: "reset",
+            completed: false
+          }),
+          headers: {
+            "Content-type": "application/json; charset=UTF-8" 
+         }
+        })
+
 }
 
 //closes score modal and resets game
