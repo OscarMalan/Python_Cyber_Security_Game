@@ -1,10 +1,11 @@
+// This is an adjacent file with questions and answers - Matt
 const questions = [
     {
-        question: "what is cyber secruity?",
-        optionA: "I dont know",
-        optionB: "sweets",
-        optionC: "i am hear to learn i dont know",
-        optionD: "A way of protecting computers",
+        question: "What is Cyber Security?",
+        optionA: "Cyber Security provides security against malware",
+        optionB: "Cyber Security provides security against cyber-terrorists",
+        optionC: "Cyber Security protects a system from cyber-attacks",
+        optionD: "All of the above",
         correctOption: "optionD"
     },
 
@@ -18,129 +19,129 @@ const questions = [
     },
 
     {
-        question: "why is cyber secruity important?",
-        optionA: "to make computers work",
-        optionB: "to protect people from hackers",
-        optionC: "Abraham Lincoln",
-        optionD: "George Washington",
+        question: "What does Cyber Security protect?",
+        optionA: "Cyber Security protects criminals",
+        optionB: "Cyber Security protects internet-connected systems",
+        optionC: "Cyber Security protects hackers",
+        optionD: "None of the mentioned",
         correctOption: "optionB"
     },
 
     {
-        question: "which is a example of a physical method of secruity?",
-        optionA: "January",
-        optionB: "playing music loud so people can't hear my password",
-        optionC: "creating a secure password",
-        optionD: "not giving out passwords",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "whats the best way to make a secure password?",
-        optionA: "using 3 random words with capitals and speacial characters",
-        optionB: "using speacial characters and capital letters",
-        optionC: "using capital letters randomly",
-        optionD: "using short easy to remember passwords",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "how quickly can the word password be hacked",
-        optionA: "two seconds",
-        optionB: "3 hours",
-        optionC: "6 hours",
-        optionD: "32 hours",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "why is it important to make a secure password?",
-        optionA: "to make it hard to login",
-        optionB: "to make it harder to remember",
-        optionC: "to make it harder to guess for hackers",
-        optionD: "North America",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "how often does a personal computer get hacked?",
-        optionA: "once every 39 seconds",
-        optionB: "once every 11 minuets",
-        optionC: "once every 2 hours",
-        optionD: "once every 39 minuets",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "which one of these is not causing a secruity threat",
-        optionA: "not updating operaitng system",
-        optionB: "using the password, password ",
-        optionC: "leaving your pc on in a public place",
-        optionD: "locking your pc",
+        question: "What are the features of Cyber Security?",
+        optionA: "Compliance",
+        optionB: "Defence against internal threats",
+        optionC: "Threat prevention",
+        optionD: "All of the above",
         correctOption: "optionD"
     },
 
     {
-        question: "what is a firewall?",
-        optionA: "a door lock",
-        optionB: "a fire saftey for systems",
-        optionC: "a way of securely turning on a computer",
-        optionD: "a protection method for a network",
+        question: "What is not a Cybercrime?",
+        optionA: "Denial of Service (DOS)",
+        optionB: "Man in the Middle",
+        optionC: "Malware",
+        optionD: "AES",
         correctOption: "optionD"
     },
 
     {
-        question: "how does a firewall work?",
-        optionA: "acts as a fireproof wall",
-        optionB: "finds and deletes a virus on a computer",
-        optionC: "prevents unauthorized access to a network",
-        optionD: "helps tell the time",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "what software identifies and deletes a virus?",
-        optionA: "anti virus software",
-        optionB: "firewall",
-        optionC: "utility software",
-        optionD: "google crome",
+        question: "What is a disadvantage of Cyber Security?",
+        optionA: "Makes the system slower",
+        optionB: "Computer freezing and crashing",
+        optionC: "Gives privacy to users",
+        optionD: "Protects system against viruses",
         correctOption: "optionA"
     },
 
-
     {
-        question: "what operating system is still supported for secruity patches?",
-        optionA: "windows 8",
-        optionB: "windows 10",
-        optionC: "windows XP",
-        optionD: "windows 7",
+        question: "Which of the following acts violates Cyber Security?",
+        optionA: "Exploits",
+        optionB: "Attacks",
+        optionC: "Threats",
+        optionD: "Vulnerability",
         correctOption: "optionB"
     },
 
     {
-        question: "why is a unsupported operating system not secure?",
-        optionA: "isnt compatable on system",
-        optionB: "no longer works",
-        optionC: "because they dont have a firewall",
-        optionD: "because they no longer recieve secruity patches",
+        question: "Which of the following acts compromises Cyber Security?",
+        optionA: "Vulnerability",
+        optionB: "Attacks",
+        optionC: "Threats",
+        optionD: "Exploits",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "What is the most common thing Cyber Attackers target?",
+        optionA: "IP",
+        optionB: "Emails",
+        optionC: "Websites",
+        optionD: "Web Pages",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "What is a firewall?",
+        optionA: "A door lock",
+        optionB: "A fire saftey for systems",
+        optionC: "A way of securely turning on a computer",
+        optionD: "A protection method for a network",
         correctOption: "optionD"
     },
 
     {
-        question: "when will windows 10 no longer be supported?",
-        optionA: "october 14th 2025",
-        optionB: "july 2nd 2029",
-        optionC: "september 25th 2023",
-        optionD: "october 2nd 2024",
+        question: "How does a firewall work?",
+        optionA: "Acts as a fireproof wall",
+        optionB: "Finds and deletes a virus on a computer",
+        optionC: "Prevents unauthorized access to a network",
+        optionD: "Helps tell the time",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "What software identifies and deletes a virus?",
+        optionA: "Anti-virus software",
+        optionB: "Firewall",
+        optionC: "Utility software",
+        optionD: "Google Chrome",
+        correctOption: "optionA"
+    },
+
+
+    {
+        question: "What operating system is still supported for secruity patches?",
+        optionA: "Windows 8",
+        optionB: "Windows 10",
+        optionC: "Windows XP",
+        optionD: "Windows 7",
+        correctOption: "optionB"
+    },
+
+    {
+        question: "Why is a unsupported operating system not secure?",
+        optionA: "Isnt compatable on system",
+        optionB: "No longer works",
+        optionC: "Because they dont have a firewall",
+        optionD: "Because they no longer recieve secruity patches",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "When will windows 10 no longer be supported?",
+        optionA: "October 14th 2025",
+        optionB: "July 2nd 2029",
+        optionC: "September 25th 2023",
+        optionD: "October 2nd 2024",
         correctOption: "optionA"
     },
 
     {
-        question: "what does HTTPS stand for?",
-        optionA: "hyper text transfer secruityt",
-        optionB: "high trained tick secruity",
-        optionC: "hypertext trasnfer protocol secure ",
-        optionD: "heavy text transport secruity",
+        question: "What is the weakness in a Computer System called?",
+        optionA: "An attack",
+        optionB: "An exploit",
+        optionC: "A vulnerability",
+        optionD: "A threat",
         correctOption: "optionC"
     },
 
@@ -152,26 +153,21 @@ const questions = [
         optionD: "I dont know",
         correctOption: "optionA"
     },
-
-    
-
-   
-
     {
         question: "What isnt a example of a cyber attack?",
-        optionA: "intentionally damaging IT system",
-        optionB: "turning on a pc",
-        optionC: "accessing a system without permission",
-        optionD: "downloading a hack on a system",
+        optionA: "Intentionally damaging IT system",
+        optionB: "Turning on a pc",
+        optionC: "Accessing a system without permission",
+        optionD: "Downloading a hack on a system",
         correctOption: "optionB"
     },
 
     {
-        question: "which is not a example of why a company needs cyber security?",
-        optionA: "to protect personal data",
-        optionB: "to sell more products",
-        optionC: "to protect functionality of their systems",
-        optionD: "to protect customer data",
+        question: "Which is not a example of why a company needs cyber security?",
+        optionA: "To protect personal data",
+        optionB: "To sell more products",
+        optionC: "To protect functionality of their systems",
+        optionD: "To protect customer data",
         correctOption: "optionB"
     },
 
@@ -180,10 +176,10 @@ const questions = [
 ]
 
 
-let shuffledQuestions = [] //empty array to hold shuffled selected questions
+let shuffledQuestions = [] // Empty array to hold shuffled selected questions
 
 function handleQuestions() { 
-    //function to shuffle and push 10 questions to shuffledQuestions array
+    // Function to shuffle and push 10 questions to shuffledQuestions array
     while (shuffledQuestions.length <= 9) {
         const random = questions[Math.floor(Math.random() * questions.length)]
         if (!shuffledQuestions.includes(random)) {
