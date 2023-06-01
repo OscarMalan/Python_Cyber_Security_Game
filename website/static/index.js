@@ -2,27 +2,27 @@
 const questions = [
     {
         question: "What is Cyber Security?",
-        optionA: "Cyber Security provides security against malware",
-        optionB: "Cyber Security provides security against cyber-terrorists",
-        optionC: "Cyber Security protects a system from cyber-attacks",
+        optionA: "Security against malware",
+        optionB: "Preventing cyber-terrorists",
+        optionC: "Preventing cyber-attacks",
         optionD: "All of the above",
         correctOption: "optionD"
     },
 
     {
         question: "what is Cryptography used for?",
-        optionA: "to turn on computers",
-        optionB: "to securely comunicate over the internet",
-        optionC: "to start up fortnite",
-        optionD: "to update my windows 10 system",
+        optionA: "To turn on computers",
+        optionB: "Making cryptic graphs",
+        optionC: "To start up fortnite",
+        optionD: "Updating Windows",
         correctOption: "optionB"
     },
 
     {
         question: "What does Cyber Security protect?",
-        optionA: "Cyber Security protects criminals",
-        optionB: "Cyber Security protects internet-connected systems",
-        optionC: "Cyber Security protects hackers",
+        optionA: "It protects criminals",
+        optionB: "It protects systems",
+        optionC: "It protects hackers",
         optionD: "None of the mentioned",
         correctOption: "optionB"
     },
@@ -30,7 +30,7 @@ const questions = [
     {
         question: "What are the features of Cyber Security?",
         optionA: "Compliance",
-        optionB: "Defence against internal threats",
+        optionB: "Scarying bad actors",
         optionC: "Threat prevention",
         optionD: "All of the above",
         correctOption: "optionD"
@@ -48,9 +48,9 @@ const questions = [
     {
         question: "What is a disadvantage of Cyber Security?",
         optionA: "Makes the system slower",
-        optionB: "Computer freezing and crashing",
+        optionB: "Computercrashing",
         optionC: "Gives privacy to users",
-        optionD: "Protects system against viruses",
+        optionD: "Prevents Cyber attacks",
         correctOption: "optionA"
     },
 
@@ -85,16 +85,16 @@ const questions = [
         question: "What is a firewall?",
         optionA: "A door lock",
         optionB: "A fire saftey for systems",
-        optionC: "A way of securely turning on a computer",
-        optionD: "A protection method for a network",
+        optionC: "Turning on a computer",
+        optionD: "For protecting a network",
         correctOption: "optionD"
     },
 
     {
         question: "How does a firewall work?",
         optionA: "Acts as a fireproof wall",
-        optionB: "Finds and deletes a virus on a computer",
-        optionC: "Prevents unauthorized access to a network",
+        optionB: "Finds viruses on a computer",
+        optionC: "Filters access to a network",
         optionD: "Helps tell the time",
         correctOption: "optionC"
     },
@@ -122,8 +122,8 @@ const questions = [
         question: "Why is a unsupported operating system not secure?",
         optionA: "Isnt compatable on system",
         optionB: "No longer works",
-        optionC: "Because they dont have a firewall",
-        optionD: "Because they no longer recieve secruity patches",
+        optionC: "Bad firewall",
+        optionD: "No secruity patches",
         correctOption: "optionD"
     },
 
@@ -147,18 +147,18 @@ const questions = [
 
     {
         question: "why is HTTP less secure that HTPPS",
-        optionA: "because it doesnt have encryption verification",
-        optionB: "because its not supported",
-        optionC: "it isnt less secure",
+        optionA: "No encryption verification",
+        optionB: "Because its not supported",
+        optionC: "It isnt less secure",
         optionD: "I dont know",
         correctOption: "optionA"
     },
     {
-        question: "What isnt a example of a cyber attack?",
-        optionA: "Intentionally damaging IT system",
+        question: "What isn't an example of a cyber attack?",
+        optionA: "Damaging an IT system",
         optionB: "Turning on a pc",
-        optionC: "Accessing a system without permission",
-        optionD: "Downloading a hack on a system",
+        optionC: "Breaking into a system",
+        optionD: "Downloading a malware",
         correctOption: "optionB"
     },
 
@@ -166,7 +166,7 @@ const questions = [
         question: "Which is not a example of why a company needs cyber security?",
         optionA: "To protect personal data",
         optionB: "To sell more products",
-        optionC: "To protect functionality of their systems",
+        optionC: "To protect their systems",
         optionD: "To protect customer data",
         correctOption: "optionB"
     },
